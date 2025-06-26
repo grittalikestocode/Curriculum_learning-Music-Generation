@@ -1,3 +1,7 @@
+""" This script computes sequence difficulty based on model loss and plots the distribution.
+It evaluates the model's performance on training and validation datasets, computes losses for each sequence,
+and generates visualizations to analyze the distribution of losses."""
+
 import torch
 import matplotlib.pyplot as plt
 import numpy as np

@@ -1,3 +1,8 @@
+""""
+This script visualizes the Kullback-Leibler Divergence (KLD) and Overlap Area (OA) for different curriculum learning strategies.
+It compares the training and validation sets for different curriculum learning percentages (CL60%, CL80%, CL60% LR)
+and plots the results with appropriate annotations and connections between training and validation points.  """
+
 import matplotlib.pyplot as plt
 import numpy as np
 

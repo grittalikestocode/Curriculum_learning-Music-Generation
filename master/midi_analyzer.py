@@ -1,3 +1,7 @@
+""" This module provides a comprehensive MIDI file analyzer that computes various musical metrics.
+It includes functionality for rhythmic intensity, pitch class extraction, and more.
+It uses the PrettyMIDI library for MIDI file handling and analysis."""
+
 import os
 import pretty_midi
 import numpy as np

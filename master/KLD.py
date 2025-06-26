@@ -1,3 +1,9 @@
+""" KL Divergence and Overlap Area Analysis for Loss Distributions. 
+This script computes the Kullback-Leibler Divergence (KLD) and Overlap Area (OA) between loss distributions 
+from different training and validation sets, and visualizes the results in a series of plots
+using Gaussian Kernel Density Estimation (KDE)."""
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import gaussian_kde, entropy

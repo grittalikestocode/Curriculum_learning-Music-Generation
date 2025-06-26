@@ -1,5 +1,9 @@
 # KL Divergence Evaluation Script for MIDI Feature Distributions
 
+""" This script evaluates the KL divergence between feature distributions of real and generated MIDI files.
+It extracts features from MIDI files, computes the KL divergence for each feature, and saves the results to a CSV file.
+It also includes functionality for comparing distributions using t-tests and visualizing the results."""
+
 import os
 import numpy as np
 import pandas as pd

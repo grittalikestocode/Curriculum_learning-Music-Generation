@@ -1,3 +1,5 @@
+""" This file computes sequence difficulty based on model loss and plots the distribution."""
+
 import torch
 import argparse
 from torch.utils.data import DataLoader, TensorDataset
@@ -7,6 +9,7 @@ from masking import create_mask
 import os
 import matplotlib.pyplot as plt
 import numpy as np
+
 
 def loss_fn(prediction, target, criterion=torch.nn.functional.cross_entropy):
     """
