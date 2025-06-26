@@ -1,0 +1,15 @@
+*.pt
+models/
+sortedsequence/
+logs/
+checkpoints/
+figure/
+generate_music/
+maestro-v3.0.0/
+music-transformer/
+processfile/
+create/
+Slurm/
+*.tmp
+.ipynb_checkpoints/
+__pycache__/

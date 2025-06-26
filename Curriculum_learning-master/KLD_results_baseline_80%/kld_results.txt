@@ -1,0 +1,15 @@
+KLD Analysis Results:
+KLD (Baseline → Curriculum): 0.1420
+KLD (Curriculum → Baseline): 0.3357
+
+Baseline Loss Statistics:
+Mean: 1.6669
+Std Dev: 0.1864
+Min: 1.1202
+Max: 2.3827
+
+Curriculum Loss Statistics:
+Mean: 1.7293
+Std Dev: 0.2584
+Min: 0.9734
+Max: 2.5755
