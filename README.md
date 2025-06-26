@@ -1,6 +1,6 @@
 # Music Transformer with Curriculum Learning
 
-The [Music Transformer](https://arxiv.org/abs/1809.04281), is a deep learning sequence model designed to generate music. This repository explores the application of **curriculum learning** to music generation, comparing curriculum learning approaches against baseline training methods.
+The [Music Transformer](https://arxiv.org/abs/1809.04281), is a deep learning sequence model designed to generate music. This repository explores the application of **curriculum learning** to music generation, comparing curriculum learning approaches against baseline training methods. This project was done as part of the Master's thesis on Investigation of Curriculum Learning on Music Generation by Gritta Joshy and Qi Chen.
 
 Our implementation builds upon the Transformer architecture to consider the relative distances between different elements of the sequence rather than / along with their absolute positions in the sequence. **The main focus of this project is investigating how curriculum learning can improve music generation quality compared to traditional training approaches.**
 
